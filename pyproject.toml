@@ -1,0 +1,14 @@
+[project]
+name = "integation-autotests"
+version = "0.1.0"
+dependencies = [
+    "requests>=2.31.0",      # Для API-тестов
+    "playwright>=1.40.0",     # Для UI-тестов
+    "pytest>=8.0.0",         # Раннер для UI и API тестов
+    "allure-pytest>=2.13.2",  # Отчёты Allure для UI и API тестов
+    "pytest-playwright>=0.4.0",  # Интеграция Playwright + pytest
+]
+
+[build-system]
+requires = ["setuptools>=42"]       # В этом блоке стандартные библиотеки, не трогать!
+build-backend = "setuptools.build_meta"
