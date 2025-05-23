@@ -7,6 +7,7 @@ dependencies = [
     "pytest>=8.0.0",         # Раннер для UI и API тестов
     "allure-pytest>=2.13.2",  # Отчёты Allure для UI и API тестов
     "pytest-playwright>=0.4.0",  # Интеграция Playwright + pytest
+    "pydantic>=2.6.0" #Работа с моделями и парсиг JSON
 ]
 
 [build-system]
